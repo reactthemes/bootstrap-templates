@@ -1,7 +1,9 @@
 # bootstrap-templates
 Responsive Bootstrap templates and themes with HTML5 and CSS3. 
 
-1 new landing page every 10 days. Follow me on [Twitter](https://twitter.com/reactthemes), Facebook(https://www.facebook.com/reactthemes), [Google+](https://plus.google.com/+Reactthemes) to get notified when I update or release new stuff.
+1 new landing page every 10 days. 
+
+You can follow me on [Twitter](https://twitter.com/reactthemes), [Facebook](https://www.facebook.com/reactthemes), [Google+](https://plus.google.com/+Reactthemes) to get notified when I update or release new stuff.
 
 ## Live Demo
 
