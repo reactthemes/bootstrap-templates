@@ -17,13 +17,29 @@
       
       ga('create', 'UA-63846464-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      
       
     </script>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <section class="header-container">
       <div class="container">
-        <div class="page-header text-center"><a href="http://reactthemes.com/" class="logo"></a>
+        <div class="page-header text-center"><a href="http://reactthemes.com/bootstrap-templates/" class="logo"></a>
           <h1>Free Bootstrap Templates and Themes</h1>
           <h2>1 new landing page every 10 days </h2>
           <div class="social-container"><a href="https://twitter.com/reactthemes" target="_blank" class="button btn-twitter"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/reactthemes" target="_blank" class="button btn-facebook"><i class="fa fa-facebook"></i></a><a href="https://plus.google.com/+Reactthemes" target="_blank" class="button btn-gplus"><i class="fa fa-google-plus"></i></a></div><span class="info">Get notified when I update or release new stuff!</span>
@@ -34,7 +50,7 @@
       <div class="container clearfix">
         <article>
           <div class="icon-container"><i class="fa fa-gift"></i></div>
-          <h4><a href="license.html" target="_blank" alt="">100% Free</a></h4>
+          <h4><a href="https://github.com/reactthemes/bootstrap-templates#license" target="_blank">100% Free</a></h4>
         </article>
         <article>
           <div class="icon-container"><i class="fa fa-mobile"></i></div>
@@ -53,17 +69,43 @@
     <section class="product-container">
       <div class="container">
         <section id="product-filters" class="product-filters">
-          <ul class="text-center">
-            <li data-filter="*" class="active">All</li>
-            <li data-filter=".product-featured">Featured</li>
-          </ul>
+          <div class="row"> 
+            <div class="col-md-6 text-left">
+              <ul>
+                <li data-filter="*" class="active">All</li>
+                <li data-filter=".product-featured">Featured</li>
+                <li data-filter=".product-minimal">Minimal   </li>
+              </ul>
+            </div>
+            <div class="col-md-6 social-accounts text-right">
+              <ul class="list-inline">
+                <li> 
+                  <div data-href="http://reactthemes.com/bootstrap-templates/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" class="fb-like"></div>
+                </li>
+                <li> <a href="https://twitter.com/share" data-url="http://reactthemes.com/bootstrap-templates/" data-via="reactthemes" class="twitter-share-button"></a></li>
+                <li><a href="https://github.com/reactthemes/bootstrap-templates" data-count-href="/reactthemes/bootstrap-templates/stargazers" data-count-api="/repos/reactthemes/bootstrap-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star reactthemes/bootstrap-templates on GitHub" class="github-button"></a></li>
+                <li>
+                  <div data-size="medium" data-href="http://reactthemes.com/bootstrap-templates/" class="g-plusone"> </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
         <ul id="products" class="products">
           <li class="product product-featured">
             <div class="product-inner">
-              <div class="preview-container"><img src="images/products/600_375-material.jpg" alt="" class="product-preview">
+              <div class="preview-container"><img src="images/products/material-600_375.jpg" alt="" class="product-preview">
                 <div class="overlay">
-                  <div class="actions"><a href="demo.html?product=material" target="_blank" class="button">Live Demo</a><a href="" target="_blank" class="button">Free Download</a><span class="product-name"><span>Item Name: Material                            </span></span></div>
+                  <div class="actions"><a href="demo.html?product=material" target="_blank" class="button">Live Demo</a><a href="" target="_blank" class="button">Free Download</a><span class="product-name"><span>Landing: Material                          </span></span></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="product product-featured product-minimal">
+            <div class="product-inner">
+              <div class="preview-container"><img src="images/products/slim-600_375.png" alt="" class="product-preview">
+                <div class="overlay">
+                  <div class="actions"><a href="demo.html?product=slim" target="_blank" class="button">Live Demo</a><a href="https://github.com/reactthemes/bootstrap-templates/releases/download/0.1.0/slim-landing-reactthemes.zip" target="_blank" class="button">Free Download</a><span class="product-name"><span>Landing: Slim                          </span></span></div>
                 </div>
               </div>
             </div>

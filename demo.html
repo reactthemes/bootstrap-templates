@@ -17,18 +17,34 @@
       
       ga('create', 'UA-63846464-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      
       
     </script>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="page-demo"> 
       <header class="switcher-bar clearfix">
         <div class="logo textual pull-left"><a href="http://reactthemes.com/" target="_blank" title="ReactThemes">React<span>Themes</span></a></div>
         <div class="product-switcher pull-left"><a href="#" title="Select a Product"></a></div>
         <div class="remove-btn header-btn pull-right"><a href="#" title="Close this bar" class="fa fa-times"></a></div>
         <div class="purchase-btn header-btn pull-right"><a href="#" title="Download" class="fa fa-download"></a></div>
-        <div class="mobile-btn header-btn pull-right hidden-xs"><a href="#" title="Smartphone View" class="fa fa-mobile-phone"></a></div>
-        <div class="tablet-btn header-btn pull-right hidden-xs"><a href="#" title="Tablet View" class="fa fa-tablet"></a></div>
+        <div class="mobile-btn header-btn pull-right hidden-xs"><a href="#" title="iPhone View" class="fa fa-mobile-phone"></a></div>
+        <div class="tablet-btn header-btn pull-right hidden-xs"><a href="#" title="iPad View" class="fa fa-tablet"></a></div>
         <div class="desktop-btn header-btn pull-right hidden-xs"><a href="#" title="Desktop View" class="fa fa-desktop"></a></div>
       </header>
       <section class="switcher-body"><a href="#" title="Prev" class="icon-chevron-left products-prev"></a>
