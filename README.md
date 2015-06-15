@@ -14,19 +14,19 @@ To better use the templates, take a look at the docs: http://reactthemes.com/boo
 All the Bootstrap templates and themes are free, forever! However, please give credit to me if you can, simply by not deleting the "Design by ReactThemes" text at the bottom, thanks so much!
 
 
+## License
+
+Simply put, it's free for personal or commerical use.
+
+The items are under the [MIT license](http://en.wikipedia.org/wiki/MIT_License), same license that [Bootstrap](http://getbootstrap.com/) use.
+
+
 ## Credits
 * [Bootstrap](http://getbootstrap.com/) The most popular front-end framework
 * [jQuery](http://jquery.com/) Write less, do more.
 * [Font Awesome](http://fontawesome.io/) The iconic font and CSS toolkit
 * [Unsplash](http://unsplash.com/) Free high-resolution photos.
 * [isotope](https://github.com/metafizzy/isotope) Filter & sort magical layouts
-
-
-## License
-
-Simply put, it's free for personal or commerical use.
-
-The items are under the [MIT license](http://en.wikipedia.org/wiki/MIT_License), same license that [Bootstrap](http://getbootstrap.com/) use.
 
 
 
